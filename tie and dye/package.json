@@ -1,0 +1,22 @@
+{
+  "name": "tie-and-dye.css",
+  "version": "1.5.5",
+  "description": "The mega artistic CSS library that brings all legendary CSS tricks into your desgns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hussseinkizz/tie-and-dye.git"
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "Hussein Kizz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hussseinkizz/tie-and-dye/issues"
+  },
+  "homepage": "https://github.com/Hussseinkizz/tie-and-dye#readme"
+}

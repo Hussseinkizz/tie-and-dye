@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tie & Dye Docs</title>
+        <meta name="description" content="Tie ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./dist/all.min.css">
+        <link rel="stylesheet" href="./dist/font awesome-anitmation.min.css">
+        <link rel="stylesheet" href="./custom-fonts/arial-styles.css">
+        <link rel="stylesheet" href="./dist/style.css">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <div class="navbar">
+                    <div class="branding">
+                        <span class="logo-box">
+                        <a href="#"><img src="./assets/tie and dye.png" class="logo"></a>
+                        </span>
+                        <span class="wordmark-box">
+                        <a href="#" class="td-link">Tie & Dye CSS</a>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="link-box">
+                            <a href="#" class="git-link"><i class="fab fa-github nav-icon"></i>Git Repo</a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+            <div class="spacer"></div>
+            <section>
+                <div class="flexi divi">
+                    <p class="intro-text">Welcome to Tie & Dye CSS, the first mega and very artistic fancy CSS library that brings all the legendary CSS tricks into your designs. Free and open source, learn more about it below or feel free to contribute!</p>
+                </div>
+                <div class="flexi divi-1">
+                    <div class="title title-main"><i class="fas fa-cog faa-spin animated icons"></i> installation.</div>
+                    <p class="install-text">The library can be easily setup for projects as a CDN, Npm or Downloaded as a zip file, use the options below and choose the most convenient way to you.</p>
+                    <div class="version">Latest version 1.5.5 - 9 dec 2020 build</div>
+                    <div class="install-container">
+                        <div class="installs">
+                        <div class="install-title">
+                            <i class="fas fa-cog"></i> Npm Install
+                        </div>
+                        <div class="install-link">
+                            <span class="install-link-icon"><i class="fas fa-copy install-icon"></i></span>
+                            <span class="install-link-value">npm install tie-and-dye --save -dev</span>
+                        </div>
+                        </div>
+                        <div class="installs">
+                        <div class="install-title">
+                            <i class="fas fa-cloud-download-alt"></i> Use As CDN
+                        </div>
+                        <div class="install-link">
+                            <span class="install-link-icon"><i class="fas fa-copy install-icon"></i></span>
+                            <span class="install-link-value">https://www.cdn.com/tie-and-dye.min</span>
+                        </div>
+                        </div>
+                        <div class="installs">
+                        <div class="install-title">
+                            <i class="fas fa-download"></i> Download Zip
+                        </div>
+                        <div class="install-link">
+                            <span class="install-link-icon"><i class="fas fa-arrow-down install-icon"></i></span>
+                            <span class="install-link-value">https://www.googledrive.com/tie-and-dye.min</span>
+                        </div>
+                        </div>
+                    </div>
+                    <p class="install-text">Click on the icons on the left of the links above to copy or download the lib CSS file and then paste the link inside the <span class="dim-text">head tag</span> in your html or if you downloaded the file you can pull it in as you can link to a normal style sheet and below are tips to get you started!</p>
+                </div>
+                <div class="flexi divi-2">
+                    <div class="title title-main"><i class="fas fa-play faa-horizontal animated icons"></i> Getting Started.</div>
+                    <p>Hope you're using sass cause it's the only work around supported per the current version, and Vscode preferably so that you can get the live sass compiler extension to smooothen things up and then if you used NPM scripts, just import the file into your code or use the CDN link to do the same. But if you downloaded the library files and you just wanna use as is, just pull in the file into your code. For some customization and advanced usage, read on below.</p>
+                    <br>
+                    <p class="partial-p">For using the partials, import the partial files below in thier order.</p>
+                    <ul class="partials">
+                        <li>tie-and-dye.base</li>
+                        <li>tie-and-dye.config</li>
+                        <li>tie-and-dye.colors</li>
+                        <li>tie-and-dye.tricks</li>
+                    </ul>
+                    <p>Where the base partial holds the basic styles or defalut resets, the config with the variables and user customizable styles, then the colors with all the color schemes and paletes and tricks which holds all the magic mixins. And we will break down each file below!</p>
+                    <br>
+                    <div class="quoting"><i class="fas fa-lightbulb icons"></i> Note: To use Tie & Dye as a whole, import the full partial named "_tie-and-dye" or the non partial full library named Tie & Dye without the underscore.</div>
+                </div>
+                <div class="flexi divi-3">
+                    <div class="title title-main t-2"><i class="fas fa-fire faa-vertical animated icons"></i> Tips and more info.</div>
+                    <div class="title"># You don't need a CSS Preset!</div>
+                    <p>The library comes with it's own CSS reset to get you started, it's preset is inspired by various popular resets like modern reset, normalize and others with just our flavor blended in. However never the less you should not mistake Tie & Dye CSS Library and CSS frameworks, this is just a CSS library comprising of various CSS libraries to bring cool CSS tricks into your designs from icon animations without Javascript to text gradient and much more but it can surely be used along popular CSS frameworks like Tailwind and Bootstrap.</p>
+                    <br>
+                    <div class="quoting"><i class="fas fa-lightbulb icons"></i> Note: If you're to use Tie & Dye along with any CSS framework it's recommended to use it in partials so that you don't have to import it's base file named "tie-and-dye.base.scss" which contains only the resets, these already come with your choosen framework. And we're quite sure you don't wanna do the un intended over rides!</div>
+                </div>
+                <div class="flexi divi-4">
+                    <div class="title"># Built on a powerful CSS preprocessor.</div>
+                    <p>Tie & Dye CSS is built using Sass, just to be sassy about this we wanted it to have all the super powers of enhanced CSS. But worry not if you don't use sass cause the library will soon also be available in plain CSS as a compilation of the sass version but for the time being we're just sassy!</p>
+                </div>
+                <div class="flexi divi-5">
+                    <div class="title"># Inspired by great CSS artists on codepen.</div>
+                    <p>This library is built by devs for devs, by community for the community and all it's tricks belong to thier respective artists but we still take pride that someone someday somewhere sometime will not have to rewrite already existing CSS just to add a simple twist into his/her design.</p>
+                </div>
+                <div class="flexi divi-6">
+                    <div class="title"># Too much talks,let's finally dive in...</div>
+                    <p>So to break it down, the library has 5 .scss partials and one full file which encompasses all the the 5 partials, and it's important to import these in order as we specify.</p>
+                </div>
+            </section>
+        </main>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="./tie and dye.js" async defer></script>
+    </body>
+</html>
